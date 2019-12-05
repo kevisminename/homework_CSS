@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "myfont1";
+    src: url("./Merriweather.ttf");
+}
+@font-face {
+    font-family: "myfont2";
+    src: url("./Microsoft Sans Serif.ttf");
+}
 .home-background {
     background-image: linear-gradient(to bottom right, #ee7752, #c73c7c, #23a6d5, #23d5ab);
     width: 100%;
@@ -90,7 +98,8 @@
 }
 .hti-hover-content {
     text-align: center;
-    font-family: myfont1,serif;
+    /* font-family: myfont1,serif; */
+    font-family: myfont1;
     
 }
 .hti-hover-click {
@@ -151,11 +160,13 @@
     max-width: 600px;
     max-height: 1200px;
     background-color: white;
-    text-align: center;
+    text-align: left;
     border-radius: 5px;
-    columns: 3 10em;
+    columns: 3 6em;
     column-gap: 2em;
-    font-family: myfont2,serif;
+    font-family: myfont2;
+    font-size:20px;
+    /* font-family: myfont2,serif; */
     
 }
 .home-fouthtPart-title::after {
